@@ -93,7 +93,7 @@
 
 
 
-  <meta name="keywords" content="log,">
+  <meta name="keywords" content="mysql,">
 
 
 
@@ -106,18 +106,18 @@
 
 
 
-<meta name="description" content="优化日志 2019/1/17 优化 next 主题参考：hexo的next主题个性化教程：打造炫酷网站">
-<meta name="keywords" content="log">
+<meta name="description" content="Mysql和SQL&amp;emsp;&amp;emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小">
+<meta name="keywords" content="mysql">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo优化日志">
-<meta property="og:url" content="https://anticway.github.io/2019/01/17/hexo优化日志/index.html">
+<meta property="og:title" content="高性能Mysql 优化">
+<meta property="og:url" content="https://anticway.github.io/2019/01/18/高性能Mysql-优化/index.html">
 <meta property="og:site_name" content="穿梭中漫步">
-<meta property="og:description" content="优化日志 2019/1/17 优化 next 主题参考：hexo的next主题个性化教程：打造炫酷网站">
+<meta property="og:description" content="Mysql和SQL&amp;emsp;&amp;emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-17T08:57:31.650Z">
+<meta property="og:updated_time" content="2019-01-21T07:22:53.113Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo优化日志">
-<meta name="twitter:description" content="优化日志 2019/1/17 优化 next 主题参考：hexo的next主题个性化教程：打造炫酷网站">
+<meta name="twitter:title" content="高性能Mysql 优化">
+<meta name="twitter:description" content="Mysql和SQL&amp;emsp;&amp;emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小">
 
 
 
@@ -147,13 +147,13 @@
 
 
 
-  <link rel="canonical" href="https://anticway.github.io/2019/01/17/hexo优化日志/">
+  <link rel="canonical" href="https://anticway.github.io/2019/01/18/高性能Mysql-优化/">
 
 
 
 
 
-  <title>hexo优化日志 | 穿梭中漫步</title>
+  <title>高性能Mysql 优化 | 穿梭中漫步</title>
   
 
 
@@ -251,7 +251,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://anticway.github.io2019/01/17/hexo优化日志/">
+    <link itemprop="mainEntityOfPage" href="https://anticway.github.io2019/01/18/高性能Mysql-优化/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="anticway">
@@ -268,7 +268,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo优化日志</h1>
+          <h1 class="post-title" itemprop="name headline">高性能Mysql 优化</h1>
         
 
         <div class="post-meta">
@@ -280,8 +280,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-17T16:35:00+08:00">
-                2019-01-17
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-18T11:04:00+08:00">
+                2019-01-18
               </time>
             
 
@@ -303,8 +303,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="categories/log/" itemprop="url" rel="index">
-                    <span itemprop="name">log</span>
+                  <a href="categories/mysql/" itemprop="url" rel="index">
+                    <span itemprop="name">mysql</span>
                   </a>
                 </span>
 
@@ -334,7 +334,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  29
+                  236
                 </span>
               
 
@@ -371,9 +371,12 @@
       
 
       
-        <h2 id="优化日志"><a href="#优化日志" class="headerlink" title="优化日志"></a>优化日志</h2><ul>
-<li>2019/1/17 优化 <strong>next</strong> 主题参考：<a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">hexo的next主题个性化教程：打造炫酷网站</a></li>
+        <h3 id="Mysql和SQL"><a href="#Mysql和SQL" class="headerlink" title="Mysql和SQL"></a>Mysql和SQL</h3><p>&emsp;&emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小镇的名字。<br>&emsp;&emsp;MySQL与mysql的区别，MySQL指的是一个完整的MySQLRDBMS，而mysql则是一个特定的客户程序的名字。发音相同，但代表的却是不同的事物。<br>&emsp;&emsp;SQL（Structured Query Language,结构化查询语言），标准化数据库语言。<br>&emsp;&emsp;语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -p -u root 登录</span><br><span class="line">分号可以用\g(go)代替</span><br><span class="line">DESCRIBE 查看字段信息</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><a href="https://www.cnblogs.com/ckaimnet/archive/2011/07/04/2097766.html" target="_blank" rel="noopener">MySQL核心内幕之MySQL的历史</a></li>
+<li><a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">MySQL发展历史介绍</a> 来自 “ <a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">ITPUB博客</a>”</li>
 </ul>
+<p>&gt;</p>
 
       
     </div>
@@ -407,7 +410,7 @@
       
         <div class="post-tags">
           
-            <a href="tags/log/" <i="" class="fa fa-tag"> log</a>
+            <a href="tags/mysql/" <i="" class="fa fa-tag"> mysql</a>
           
         </div>
       
@@ -420,8 +423,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="2019/01/15/hello-world/" rel="next" title="Hello Hexo">
-                <i class="fa fa-chevron-left"></i> Hello Hexo
+              <a href="2019/01/17/Markdown-学习笔记/" rel="next" title="Markdown 学习笔记">
+                <i class="fa fa-chevron-left"></i> Markdown 学习笔记
               </a>
             
           </div>
@@ -429,10 +432,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="2019/01/17/Markdown-学习笔记/" rel="prev" title="Markdown 学习笔记">
-                Markdown 学习笔记 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -613,7 +612,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#优化日志"><span class="nav-number">1.</span> <span class="nav-text">优化日志</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Mysql和SQL"><span class="nav-number">1.</span> <span class="nav-text">Mysql和SQL</span></a></li></ol></div>
             
 
           </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anticway.github.io/"/>
-  <updated>2019-01-17T10:26:42.009Z</updated>
+  <updated>2019-01-21T07:22:53.113Z</updated>
   <id>https://anticway.github.io/</id>
   
   <author>
@@ -17,20 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown 学习笔记</title>
-    <link href="https://anticway.github.io/2019/01/17/Markdown-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://anticway.github.io/2019/01/17/Markdown-学习笔记/</id>
-    <published>2019-01-17T10:25:00.000Z</published>
-    <updated>2019-01-17T10:26:42.009Z</updated>
+    <title>高性能Mysql 优化</title>
+    <link href="https://anticway.github.io/2019/01/18/%E9%AB%98%E6%80%A7%E8%83%BDMysql-%E4%BC%98%E5%8C%96/"/>
+    <id>https://anticway.github.io/2019/01/18/高性能Mysql-优化/</id>
+    <published>2019-01-18T03:04:00.000Z</published>
+    <updated>2019-01-21T07:22:53.113Z</updated>
     
-    <content type="html"><![CDATA[<p>### </p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Mysql和SQL"><a href="#Mysql和SQL" class="headerlink" title="Mysql和SQL"></a>Mysql和SQL</h3><p>&emsp;&emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小镇的名字。<br>&emsp;&emsp;MySQL与mysql的区别，MySQL指的是一个完整的MySQLRDBMS，而mysql则是一个特定的客户程序的名字。发音相同，但代表的却是不同的事物。<br>&emsp;&emsp;SQL（Structured Query Language,结构化查询语言），标准化数据库语言。<br>&emsp;&emsp;语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -p -u root 登录</span><br><span class="line">分号可以用\g(go)代替</span><br><span class="line">DESCRIBE 查看字段信息</span><br></pre></td></tr></table></figure></p><ul><li><a href="https://www.cnblogs.com/ckaimnet/archive/2011/07/04/2097766.html" target="_blank" rel="noopener">MySQL核心内幕之MySQL的历史</a></li><li><a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">MySQL发展历史介绍</a> 来自 “ <a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">ITPUB博客</a>”</li></ul><p>&gt;</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;### &lt;/p&gt;
-
+        &lt;h3 id=&quot;Mysql和SQL&quot;&gt;&lt;a href=&quot;#Mysql和SQL&quot; class=&quot;headerlink&quot; title=&quot;Mysql和SQL&quot;&gt;&lt;/a&gt;Mysql和SQL&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQ
+      
+    
+    </summary>
+    
+      <category term="mysql" scheme="https://anticway.github.io/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="https://anticway.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 学习笔记</title>
+    <link href="https://anticway.github.io/2019/01/17/Markdown-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://anticway.github.io/2019/01/17/Markdown-学习笔记/</id>
+    <published>2019-01-17T10:25:00.000Z</published>
+    <updated>2019-01-21T03:42:19.506Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote><p>缩进使用特殊占位符：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp;或&amp;#8194; //半角</span><br><span class="line">&amp;emsp;或&amp;#8195; //全角</span><br><span class="line">&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure></p><p>换行:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用HTML标签&lt;br/&gt;</span><br></pre></td></tr></table></figure></p><p>文字居中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;center&gt;嘿嘿&lt;/center&gt;</span><br></pre></td></tr></table></figure></p><p>文字左对齐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p align=&quot;left&quot;&gt;诶嘿&lt;/p&gt;</span><br></pre></td></tr></table></figure></p></blockquote><h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><blockquote><p>插入图片及图片居中、定义大小<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![这里放图片描述](这里放图片链接)</span><br></pre></td></tr></table></figure></p></blockquote><p><div align="center"><img width="150" height="150" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547815068284&di=dbcd66fe9171e89778c07c8a882e5940&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130917%2F259922-13091G00Z077.jpg"></div></p><h3 id="插入音乐"><a href="#插入音乐" class="headerlink" title="插入音乐"></a>插入音乐</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=528478901&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe><h3 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ilg3gGewQ5U&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><h3 id="跳转链接"><a href="#跳转链接" class="headerlink" title="跳转链接"></a>跳转链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">html里的a标签</span><br></pre></td></tr></table></figure><h3 id="使用标准字体"><a href="#使用标准字体" class="headerlink" title="使用标准字体"></a>使用标准字体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br></pre></td></tr></table></figure><h3 id="多种矩阵形式输入"><a href="#多种矩阵形式输入" class="headerlink" title="多种矩阵形式输入"></a>多种矩阵形式输入</h3><blockquote><p>不带括号的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;matrix&#125;</span><br><span class="line">1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line">\end&#123;matrix&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\begin{matrix}   1 & 2 & 3 \\   4 & 5 & 6 \\   7 & 8 & 9  \end{matrix} \tag{1}</script><blockquote><p>带大括号的：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$\left\&#123;</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line"> 1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line"> \end&#123;matrix&#125;</span><br><span class="line"> \right\&#125;</span><br><span class="line"> $$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\left\{  \begin{matrix}  1&2 \\  3&4 \\ 5&6  \end{matrix}  \right\}</script><blockquote><p>带中括号的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$\left[</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line"> 1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line"> \end&#123;matrix&#125;</span><br><span class="line"> \right]</span><br><span class="line"> $$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\left[  \begin{matrix}  1&2 \\  3&4 \\ 5&6  \end{matrix}  \right]</script><blockquote><p><a href="https://blog.csdn.net/thither_shore/article/details/52260742" target="_blank" rel="noopener">markdown 之 LaTeX 特殊公式</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;缩进使用特殊占位符：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;
       
     
     </summary>
