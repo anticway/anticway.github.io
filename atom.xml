@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anticway.github.io/"/>
-  <updated>2019-01-21T07:22:53.113Z</updated>
+  <updated>2019-01-25T02:03:31.679Z</updated>
   <id>https://anticway.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://anticway.github.io/2019/01/18/%E9%AB%98%E6%80%A7%E8%83%BDMysql-%E4%BC%98%E5%8C%96/"/>
     <id>https://anticway.github.io/2019/01/18/高性能Mysql-优化/</id>
     <published>2019-01-18T03:04:00.000Z</published>
-    <updated>2019-01-21T07:22:53.113Z</updated>
+    <updated>2019-01-25T02:03:31.679Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Mysql和SQL"><a href="#Mysql和SQL" class="headerlink" title="Mysql和SQL"></a>Mysql和SQL</h3><p>&emsp;&emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小镇的名字。<br>&emsp;&emsp;MySQL与mysql的区别，MySQL指的是一个完整的MySQLRDBMS，而mysql则是一个特定的客户程序的名字。发音相同，但代表的却是不同的事物。<br>&emsp;&emsp;SQL（Structured Query Language,结构化查询语言），标准化数据库语言。<br>&emsp;&emsp;语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -p -u root 登录</span><br><span class="line">分号可以用\g(go)代替</span><br><span class="line">DESCRIBE 查看字段信息</span><br></pre></td></tr></table></figure></p><ul><li><a href="https://www.cnblogs.com/ckaimnet/archive/2011/07/04/2097766.html" target="_blank" rel="noopener">MySQL核心内幕之MySQL的历史</a></li><li><a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">MySQL发展历史介绍</a> 来自 “ <a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">ITPUB博客</a>”</li></ul><p>&gt;</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Mysql和SQL"><a href="#Mysql和SQL" class="headerlink" title="Mysql和SQL"></a>Mysql和SQL</h3><p>&emsp;&emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小镇的名字。<br>&emsp;&emsp;MySQL与mysql的区别，MySQL指的是一个完整的MySQLRDBMS，而mysql则是一个特定的客户程序的名字。发音相同，但代表的却是不同的事物。<br>&emsp;&emsp;SQL（Structured Query Language,结构化查询语言），标准化数据库语言。<br>&emsp;&emsp;语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -p -u root 登录</span><br><span class="line">分号可以用\g(go)代替</span><br><span class="line">DESCRIBE 查看字段信息</span><br></pre></td></tr></table></figure></p><ul><li><a href="https://www.cnblogs.com/ckaimnet/archive/2011/07/04/2097766.html" target="_blank" rel="noopener">MySQL核心内幕之MySQL的历史</a></li><li><a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">MySQL发展历史介绍</a> 来自 “ <a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">ITPUB博客</a>”</li></ul>]]></content>
     
     <summary type="html">
     
