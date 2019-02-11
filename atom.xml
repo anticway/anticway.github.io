@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anticway.github.io/"/>
-  <updated>2019-01-25T02:03:31.679Z</updated>
+  <updated>2019-02-11T10:11:01.940Z</updated>
   <id>https://anticway.github.io/</id>
   
   <author>
@@ -17,19 +17,72 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Dorker</title>
+    <link href="https://anticway.github.io/2019/02/11/Dorker/"/>
+    <id>https://anticway.github.io/2019/02/11/Dorker/</id>
+    <published>2019-02-11T10:06:00.000Z</published>
+    <updated>2019-02-11T10:11:01.940Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Docker学习日志&quot;&gt;&lt;a href=&quot;#Docker学习日志&quot; class=&quot;headerlink&quot; title=&quot;Docker学习日志&quot;&gt;&lt;/a&gt;Docker学习日志&lt;/h3&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="https://anticway.github.io/categories/Docker/"/>
+    
+    
+      <category term="Docker" scheme="https://anticway.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shrio</title>
+    <link href="https://anticway.github.io/2019/01/25/shrio/"/>
+    <id>https://anticway.github.io/2019/01/25/shrio/</id>
+    <published>2019-01-25T03:43:00.000Z</published>
+    <updated>2019-01-25T03:52:49.923Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;font size=&quot;14&quot;&gt;&lt;strong&gt;shiro&lt;/strong&gt;&lt;/font&gt;(java安全框架)&lt;br&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;Apache Shiro&lt;/strong&gt;™ is a powerful and easy-to-use Java
+        
+      
+    
+    </summary>
+    
+      <category term="java frame" scheme="https://anticway.github.io/categories/java-frame/"/>
+    
+    
+      <category term="java框架" scheme="https://anticway.github.io/tags/java%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>高性能Mysql 优化</title>
     <link href="https://anticway.github.io/2019/01/18/%E9%AB%98%E6%80%A7%E8%83%BDMysql-%E4%BC%98%E5%8C%96/"/>
     <id>https://anticway.github.io/2019/01/18/高性能Mysql-优化/</id>
     <published>2019-01-18T03:04:00.000Z</published>
     <updated>2019-01-25T02:03:31.679Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Mysql和SQL"><a href="#Mysql和SQL" class="headerlink" title="Mysql和SQL"></a>Mysql和SQL</h3><p>&emsp;&emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQL AB的创始人从用户在“海豚命名”的竞赛中建议的大量的名字表中选出的。获胜的名字是由来自非洲斯威士兰的开源软件开发者Ambrose Twebaze提供。根据Ambrose所说，Sakila来自一种叫SiSwati的斯威士兰方言，也是在Ambrose的家乡乌干达附近的坦桑尼亚的Arusha的一个小镇的名字。<br>&emsp;&emsp;MySQL与mysql的区别，MySQL指的是一个完整的MySQLRDBMS，而mysql则是一个特定的客户程序的名字。发音相同，但代表的却是不同的事物。<br>&emsp;&emsp;SQL（Structured Query Language,结构化查询语言），标准化数据库语言。<br>&emsp;&emsp;语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -p -u root 登录</span><br><span class="line">分号可以用\g(go)代替</span><br><span class="line">DESCRIBE 查看字段信息</span><br></pre></td></tr></table></figure></p><ul><li><a href="https://www.cnblogs.com/ckaimnet/archive/2011/07/04/2097766.html" target="_blank" rel="noopener">MySQL核心内幕之MySQL的历史</a></li><li><a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">MySQL发展历史介绍</a> 来自 “ <a href="http://blog.itpub.net/15498/viewspace-2149399/" target="_blank" rel="noopener">ITPUB博客</a>”</li></ul>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;Mysql和SQL&quot;&gt;&lt;a href=&quot;#Mysql和SQL&quot; class=&quot;headerlink&quot; title=&quot;Mysql和SQL&quot;&gt;&lt;/a&gt;Mysql和SQL&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;MySQL的海豚标志的名字叫“sakila”，它是由MySQ
+        
+        
+          &lt;h3 id=&quot;Mysql和SQL&quot;&gt;&lt;a href=&quot;#Mysql和SQL&quot; class=&quot;headerlink&quot;
+        
       
     
     </summary>
@@ -48,14 +101,15 @@
     <published>2019-01-17T10:25:00.000Z</published>
     <updated>2019-01-21T03:42:19.506Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><blockquote><p>缩进使用特殊占位符：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;ensp;或&amp;#8194; //半角</span><br><span class="line">&amp;emsp;或&amp;#8195; //全角</span><br><span class="line">&amp;nbsp;或&amp;#160;</span><br></pre></td></tr></table></figure></p><p>换行:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用HTML标签&lt;br/&gt;</span><br></pre></td></tr></table></figure></p><p>文字居中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;center&gt;嘿嘿&lt;/center&gt;</span><br></pre></td></tr></table></figure></p><p>文字左对齐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p align=&quot;left&quot;&gt;诶嘿&lt;/p&gt;</span><br></pre></td></tr></table></figure></p></blockquote><h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><blockquote><p>插入图片及图片居中、定义大小<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![这里放图片描述](这里放图片链接)</span><br></pre></td></tr></table></figure></p></blockquote><p><div align="center"><img width="150" height="150" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547815068284&di=dbcd66fe9171e89778c07c8a882e5940&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F130917%2F259922-13091G00Z077.jpg"></div></p><h3 id="插入音乐"><a href="#插入音乐" class="headerlink" title="插入音乐"></a>插入音乐</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=528478901&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe><h3 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ilg3gGewQ5U&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><h3 id="跳转链接"><a href="#跳转链接" class="headerlink" title="跳转链接"></a>跳转链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">html里的a标签</span><br></pre></td></tr></table></figure><h3 id="使用标准字体"><a href="#使用标准字体" class="headerlink" title="使用标准字体"></a>使用标准字体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br></pre></td></tr></table></figure><h3 id="多种矩阵形式输入"><a href="#多种矩阵形式输入" class="headerlink" title="多种矩阵形式输入"></a>多种矩阵形式输入</h3><blockquote><p>不带括号的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;matrix&#125;</span><br><span class="line">1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line">\end&#123;matrix&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\begin{matrix}   1 & 2 & 3 \\   4 & 5 & 6 \\   7 & 8 & 9  \end{matrix} \tag{1}</script><blockquote><p>带大括号的：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$\left\&#123;</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line"> 1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line"> \end&#123;matrix&#125;</span><br><span class="line"> \right\&#125;</span><br><span class="line"> $$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\left\{  \begin{matrix}  1&2 \\  3&4 \\ 5&6  \end{matrix}  \right\}</script><blockquote><p>带中括号的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$\left[</span><br><span class="line"> \begin&#123;matrix&#125;</span><br><span class="line"> 1&amp;2 \\  3&amp;4 \\ 5&amp;6</span><br><span class="line"> \end&#123;matrix&#125;</span><br><span class="line"> \right]</span><br><span class="line"> $$</span><br></pre></td></tr></table></figure></p></blockquote><script type="math/tex; mode=display">\left[  \begin{matrix}  1&2 \\  3&4 \\ 5&6  \end{matrix}  \right]</script><blockquote><p><a href="https://blog.csdn.net/thither_shore/article/details/52260742" target="_blank" rel="noopener">markdown 之 LaTeX 特殊公式</a></p></blockquote>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;缩进使用特殊占位符：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;
+        
+        
+          &lt;h3 id=&quot;段落&quot;&gt;&lt;a href=&quot;#段落&quot; class=&quot;headerlink&quot; title=&quot;段落&quot;&gt;&lt;/a&gt;段落&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;缩进使用特殊占位符：&lt;br&gt;&lt;figure class=&quot;highlight
+        
       
     
     </summary>
@@ -74,14 +128,15 @@
     <published>2019-01-17T08:35:00.000Z</published>
     <updated>2019-01-17T08:57:31.650Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="优化日志"><a href="#优化日志" class="headerlink" title="优化日志"></a>优化日志</h2><ul><li>2019/1/17 优化 <strong>next</strong> 主题参考：<a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">hexo的next主题个性化教程：打造炫酷网站</a></li></ul>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;优化日志&quot;&gt;&lt;a href=&quot;#优化日志&quot; class=&quot;headerlink&quot; title=&quot;优化日志&quot;&gt;&lt;/a&gt;优化日志&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;2019/1/17 优化 &lt;strong&gt;next&lt;/strong&gt; 主题参考：&lt;a href=&quot;https:/
+        
+        
+          &lt;h2 id=&quot;优化日志&quot;&gt;&lt;a href=&quot;#优化日志&quot; class=&quot;headerlink&quot; title=&quot;优化日志&quot;&gt;&lt;/a&gt;优化日志&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2019/1/17 优化 &lt;strong&gt;next&lt;/strong&gt; 主题参考：&lt;a
+        
       
     
     </summary>
@@ -100,13 +155,14 @@
     <published>2019-01-15T09:54:00.000Z</published>
     <updated>2019-01-17T06:56:47.660Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
       
     
     </summary>
