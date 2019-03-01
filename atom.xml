@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anticway.github.io/"/>
-  <updated>2019-02-11T10:11:01.940Z</updated>
+  <updated>2019-03-01T04:08:30.118Z</updated>
   <id>https://anticway.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>activiti工作流</title>
+    <link href="https://anticway.github.io/2019/03/01/acitiviti/"/>
+    <id>https://anticway.github.io/2019/03/01/acitiviti/</id>
+    <published>2019-03-01T04:03:00.000Z</published>
+    <updated>2019-03-01T04:08:30.118Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;activiti&quot;&gt;&lt;a href=&quot;#activiti&quot; class=&quot;headerlink&quot; title=&quot;activiti&quot;&gt;&lt;/a&gt;activiti&lt;/h2&gt;&lt;h4 id=&quot;原理&quot;&gt;&lt;a href=&quot;#原理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="java" scheme="https://anticway.github.io/categories/java/"/>
+    
+    
+      <category term="activiti工作流" scheme="https://anticway.github.io/tags/activiti%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+  </entry>
   
   <entry>
     <title>Dorker</title>
